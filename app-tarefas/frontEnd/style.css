@@ -1,0 +1,51 @@
+body{
+    background: #000000;
+    font-family: monospace;
+    color: #000000;
+}
+
+form, #form-tarefas{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#form-tarefas input {
+    padding: .5rem;
+    border: 2px solid #454955;
+    border-radius: 5px;
+}
+
+#list-tarefas{
+    list-style: none;
+}
+
+#list-tarefas li{
+    font-size: 1rem;
+    border: 2px solid #454955;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f3eff5;
+    color: #454955;
+}
+
+main{
+    background-color: #32c6dd;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#form-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 760px) {
+    main {
+        width: 90%;
+        padding: 1rem;
+    }
+}
